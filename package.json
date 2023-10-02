@@ -1,0 +1,27 @@
+{
+  "name": "playwright-typescript-template",
+  "version": "1.0.0",
+  "description": "Boilerplate project for web testing with Playwright and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tsc",
+    "lint": "eslint .",
+    "pretty": "prettier --write \"./**/*.{yml,ts,tsx,json}\""
+  },
+  "keywords": [],
+  "author": "Burak Kaygusuz",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "eslint-plugin-playwright": "^0.16.0",
+    "prettier": "3.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
