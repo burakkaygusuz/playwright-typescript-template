@@ -30,3 +30,9 @@ cd playwright-typescript-template
 ```shell
 npm install && npx playwright test
 ```
+
+- Report the test result.
+
+```shell
+npm run report
+```

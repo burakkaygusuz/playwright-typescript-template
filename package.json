@@ -6,7 +6,8 @@
   "scripts": {
     "build" : "tsc",
     "lint": "eslint .",
-    "pretty": "prettier --write \"./**/*.{yml,ts,tsx,json}\""
+    "pretty": "prettier --write \"./**/*.{yml,ts,tsx,json}\"",
+    "report" : "playwright show-report reports/html"
   },
   "keywords": [],
   "author": "Burak Kaygusuz",
