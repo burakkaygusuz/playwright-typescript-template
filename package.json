@@ -4,10 +4,10 @@
   "description": "Boilerplate project for web testing with Playwright and TypeScript",
   "main": "index.js",
   "scripts": {
-    "build" : "tsc",
+    "build": "tsc",
     "lint": "eslint .",
     "pretty": "prettier --write \"./**/*.{yml,ts,tsx,json}\"",
-    "report" : "playwright show-report reports/html"
+    "report": "playwright show-report reports/html"
   },
   "keywords": [],
   "author": "Burak Kaygusuz",
@@ -16,9 +16,9 @@
     "@faker-js/faker": "^8.1.0",
     "@playwright/test": "^1.38.1",
     "@types/node": "^20.8.2",
-    "@typescript-eslint/eslint-plugin": "^6.7.3",
-    "@typescript-eslint/parser": "^6.7.3",
-    "eslint": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.51.0",
     "eslint-plugin-playwright": "^0.16.0",
     "prettier": "3.0.3"
   },
