@@ -25,10 +25,16 @@ git clone git@github.com:burakkaygusuz/playwright-typescript-template.git
 cd playwright-typescript-template
 ```
 
+- Install the dependencies and the browsers.
+
+```shell
+npm install && npx playwright install
+```
+
 - Run the test.
 
 ```shell
-npm install && npx playwright test
+npx playwright test
 ```
 
 - Report the test result.
