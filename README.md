@@ -9,7 +9,7 @@ Make sure you have installed all the following prerequisites on your development
 | OS      | Node                               |
 | ------- | ---------------------------------- |
 | Windows | `winget install OpenJS.NodeJS.LTS` |
-| macOS   | `brew install node@18`             |
+| macOS   | `brew install node@20`             |
 
 ## Executing The Tests
 

@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node JS LTS
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           check-latest: true
 
       - name: Install Dependencies
