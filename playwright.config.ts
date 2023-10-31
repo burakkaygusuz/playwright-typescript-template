@@ -25,6 +25,7 @@ export default defineConfig({
   ],
   use: {
     actionTimeout: 10000,
+    navigationTimeout: 10000,
     baseURL: process.env.BASE_URL,
     launchOptions: {
       headless: true,
