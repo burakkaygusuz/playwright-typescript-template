@@ -1,4 +1,4 @@
-import { test, expect } from '../src/fixtures/base.fixture';
+import { test, expect } from 'src/fixtures';
 
 test.describe('Playwright', () => {
   test('has title', async ({ page }) => {
