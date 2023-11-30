@@ -7,8 +7,9 @@
     "module": "CommonJS",
     "moduleResolution": "Node",
     "sourceMap": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": ["node"]
   },
   "include": ["src/**/*.ts", "tests/**/*.ts"],
-  "exclude": ["node_mdoules"]
+  "exclude": ["node_modules"]
 }
