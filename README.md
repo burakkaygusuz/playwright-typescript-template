@@ -33,13 +33,7 @@ Template project for web testing with Playwright and TypeScript.
 
 ## Prerequisites
 
-Before you begin, ensure you have Node.js and npm installed on your machine. If not, follow the installation commands below based on your operating system:
-
-| Operating System   | Installation Commands                                     |
-| ------------------ | --------------------------------------------------------- |
-| **Windows**        | `winget upgrade && winget install --id OpenJS.NodeJS.LTS` |
-| **macOS**          | `brew update && brew install node@20`                     |
-| **Linux (Ubuntu)** | `sudo apt-get update && sudo apt-get install nodejs npm`  |
+Before you begin, ensure you have Node.js and npm installed on your machine. If not, follow the installation instructions provided in the [Node.js Package Manager Installation Guide](https://nodejs.org/en/download/package-manager#installing-nodejs-via-package-manager).
 
 ## Installation
 
