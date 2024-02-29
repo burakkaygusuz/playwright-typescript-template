@@ -20,7 +20,7 @@
     "eslint-plugin-playwright": "^1.5.1",
     "prettier": "3.2.5",
     "typescript": "^5.3.3",
-    "typescript-eslint": "^7.0.2"
+    "typescript-eslint": "^7.1.0"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
