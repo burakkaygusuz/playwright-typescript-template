@@ -20,8 +20,7 @@ Template project for web testing with Playwright and TypeScript.
 - **[@faker-js/faker](https://www.npmjs.com/package/@faker-js/faker):** Library for generating fake data, useful for test data creation.
 - **[@playwright/test](https://www.npmjs.com/package/@playwright/test):** End-to-end testing library for web applications, built on top of Playwright.
 - **[@types/node](https://www.npmjs.com/package/@types/node):** TypeScript type definitions for Node.js.
-- **[@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin):** ESLint plugin for TypeScript code analysis.
-- **[@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser):** ESLint parser for TypeScript code.
+- **[typescript-eslint](https://www.npmjs.com/package/typescript-eslint):** ESLint plugin for TypeScript code analysis.
 - **[eslint](https://www.npmjs.com/package/eslint):** A pluggable and configurable linter for identifying and fixing problems in JavaScript code.
 - **[eslint-plugin-playwright](https://www.npmjs.com/package/eslint-plugin-playwright):** ESLint rules for Playwright tests.
 - **[prettier](https://www.npmjs.com/package/prettier):** Opinionated code formatter to enforce a consistent code style.
