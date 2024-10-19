@@ -1,30 +1,15 @@
-import typescriptEslint from '@typescript-eslint/eslint-plugin';
-import tsParser from '@typescript-eslint/parser';
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
 import playwright from 'eslint-plugin-playwright';
-import globals from 'globals';
 
-export default [
+export default tseslint.config(
+  eslint.configs.recommended,
+  ...tseslint.configs.recommended,
   {
     ...playwright.configs['flat/recommended'],
-    files: ['src/**', 'tests/**'],
-    ignores: ['**/node_modules/', '**/dist/'],
+    files: ['tests/**'],
   },
   {
-    plugins: {
-      '@typescript-eslint': typescriptEslint,
-    },
-
-    languageOptions: {
-      globals: {
-        ...globals.browser,
-        ...globals.node,
-      },
-
-      parser: tsParser,
-      ecmaVersion: 'latest',
-      sourceType: 'module',
-    },
-
-    rules: {},
-  },
-];
+    ignores: ['**/node_modules/', '**/dist/'],
+  }
+);

@@ -13,14 +13,16 @@
   "author": "Burak Kaygusuz",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.13.0",
     "@faker-js/faker": "^9.0.3",
     "@playwright/test": "^1.48.0",
+    "@types/eslint__js": "^8.42.3",
     "@types/node": "^22.7.4",
-    "eslint": "^9.11.1",
+    "eslint": "^9.13.0",
     "eslint-plugin-playwright": "^1.7.0",
     "prettier": "3.3.3",
-    "typescript": "^5.6.2",
-    "typescript-eslint": "^8.8.0"
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.10.0"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
