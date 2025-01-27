@@ -25,6 +25,6 @@
     "typescript-eslint": "^8.14.0"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.24.0"
+    "@dotenvx/dotenvx": "^1.34.0"
   }
 }
