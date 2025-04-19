@@ -9,9 +9,6 @@ jobs:
     name: 'Playwright TypeScript Template'
     runs-on: ubuntu-latest
 
-    env:
-      BASE_URL: ${{ vars.BASE_URL }}
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,6 +27,8 @@ jobs:
 
       - name: Execute Tests
         run: npx playwright test
+        env:
+          BASE_URL: ${{ vars.BASE_URL }}
 
       - uses: actions/upload-artifact@v4
         if: always()
