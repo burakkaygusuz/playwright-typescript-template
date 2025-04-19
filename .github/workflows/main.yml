@@ -9,6 +9,9 @@ jobs:
     name: 'Playwright TypeScript Template'
     runs-on: ubuntu-latest
 
+    env:
+      BASE_URL: ${{ vars.BASE_URL }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
