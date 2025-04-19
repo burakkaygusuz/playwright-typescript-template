@@ -1,7 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 import dotenvx from '@dotenvx/dotenvx';
 
-dotenvx.config({ quiet: true })
+dotenvx.config({ quiet: true });
 
 export default defineConfig({
   testDir: './tests',
