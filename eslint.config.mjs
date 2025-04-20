@@ -8,6 +8,9 @@ export default [
   {
     ...playwright.configs['flat/recommended'],
     files: ['src/**', 'tests/**'],
+    rules: {
+      ...playwright.configs['flat/recommended'].rules,
+    },
   },
   {
     ignores: ['**/node_modules/', '**/dist/'],
