@@ -1,7 +1,9 @@
 import { defineConfig, devices } from '@playwright/test';
 import dotenvx from '@dotenvx/dotenvx';
+import path from 'path';
 
-dotenvx.config({ quiet: true });
+const environment = process.env.NODE_ENV || 'development';
+dotenvx.config({ path: path.resolve(__dirname, `.env.${environment}`), quiet: true });
 
 export default defineConfig({
   testDir: './tests',
