@@ -14,7 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.27.0",
-    "@faker-js/faker": "^9.7.0",
+    "@faker-js/faker": "^9.8.0",
     "@playwright/test": "^1.52.0",
     "@types/eslint__js": "^8.42.3",
     "@types/node": "^22.15.21",
