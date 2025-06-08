@@ -8,6 +8,9 @@
     "moduleResolution": "Node",
     "sourceMap": true,
     "outDir": "dist",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "types": ["node"]
   },
   "include": ["src/**/*.ts", "tests/**/*.ts"],
