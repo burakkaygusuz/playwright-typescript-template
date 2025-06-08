@@ -19,6 +19,10 @@ jobs:
           node-version: lts/*
           check-latest: true
 
+      - run: curl -sfS https://dotenvx.sh/install.sh | sh
+        env:
+          DOTENV_PUBLIC_KEY_DEVELOPMENT: ${{ secrets.DOTENV_PUBLIC_KEY_DEVELOPMENT }}
+
       - name: Install Dependencies
         run: npm ci
 
@@ -26,9 +30,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Execute Tests
-        run: npx playwright test
-        env:
-          BASE_URL: ${{ vars.BASE_URL }}
+        run: npm run test
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
