@@ -1,9 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
-import dotenvx from '@dotenvx/dotenvx';
-import path from 'path';
-
-const environment = process.env.NODE_ENV || 'development';
-dotenvx.config({ path: path.resolve(__dirname, `.env.${environment}`), quiet: true });
+import { env } from './src/config/env';
 
 export default defineConfig({
   testDir: './tests',
@@ -28,7 +24,7 @@ export default defineConfig({
   use: {
     actionTimeout: 10000,
     navigationTimeout: 10000,
-    baseURL: process.env.BASE_URL,
+    baseURL: env.BASE_URL,
     launchOptions: {
       headless: true,
       slowMo: 0,
