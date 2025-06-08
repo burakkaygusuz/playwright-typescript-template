@@ -8,7 +8,7 @@ const envPath = path.resolve(
   process.env.NODE_ENV === 'development' ? '.env.development' : '.env.production',
 );
 
-const envConfig = dotenvx.config({ path: envPath });
+const envConfig = dotenvx.config({ path: envPath, quiet: true });
 
 if (envConfig.error) {
   console.error('Error loading environment variables:', JSON.stringify(envConfig.error, null, 2));
