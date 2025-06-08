@@ -21,7 +21,7 @@ jobs:
 
       - run: curl -sfS https://dotenvx.sh/install.sh | sh
         env:
-          DOTENV_PUBLIC_KEY_DEVELOPMENT: ${{ secrets.DOTENV_PRIVATE_KEY_DEVELOPMENT }}
+          DOTENV_PRIVATE_KEY_DEVELOPMENT: ${{ secrets.DOTENV_PRIVATE_KEY_DEVELOPMENT }}
 
       - name: Install Dependencies
         run: npm ci
